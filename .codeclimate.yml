@@ -9,18 +9,14 @@ engines:
   radon:
     enabled: true
   pep8:
-    enabled: true
+    enabled: false
   duplication:
     enabled: true
     config:
       languages:
-      - javascript
       - python
 ratings:
   paths:
-  - "**.css"
-  - "**.js"
-  - "**.jsx"
   - "**.py"
 exclude_paths:
 - tests/**/*
