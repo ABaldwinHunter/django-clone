@@ -1,12 +1,14 @@
 ---
 engines:
   csslint:
-    enabled: true
+    enabled: false
   eslint:
-    enabled: true
+    enabled: false
   fixme:
-    enabled: true
+    enabled: false
   radon:
+    enabled: true
+  pep8:
     enabled: true
   duplication:
     enabled: true
